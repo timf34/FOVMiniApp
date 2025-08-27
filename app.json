@@ -1,32 +1,23 @@
 {
   "expo": {
-    "name": "FOVMiniApp",
-    "slug": "FOVMiniApp",
+    "name": "FOVMini",
+    "slug": "FOVMini",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "sdkVersion": "52.0.0",
     "ios": {
+      "bundleIdentifier": "com.example.FOVMini",
+      "buildNumber": "1",               
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "plugins": [
-      "expo-build-properties"
+      ["expo-build-properties", {
+        "ios": {
+          "deploymentTarget": "15.1",
+          "useFrameworks": "static",
+          "otherLinkerFlags": ["-ObjC"]  
+        }
+      }]
     ]
   }
 }
