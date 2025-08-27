@@ -1,0 +1,11 @@
+{
+	"name": "fov-audio",
+	"version": "0.0.1",
+	"main": "./index.ts",
+	"react-native": "./index.ts",
+	"sideEffects": false,
+	"peerDependencies": {
+	  "expo-modules-core": "*"
+	}
+  }
+  
