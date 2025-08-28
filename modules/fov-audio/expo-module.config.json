@@ -2,6 +2,7 @@
 	"name": "fov-audio",
 	"platforms": ["ios"],
 	"ios": {
+	  "modules": ["FOVAudioModule"],
 	  "podspecPath": "FOVAudio.podspec",
 	  "swiftModuleName": "FOVAudio"
 	}

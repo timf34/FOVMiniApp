@@ -20,7 +20,7 @@ public class FOVAudioModule: Module {
     // Optional: constants (verify in debugger)
     Constants([
       "module": "FOVAudio",
-      "version": "0.0.1"
+      "version": "0.0.2"
     ])
   }
 }

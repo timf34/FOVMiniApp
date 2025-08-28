@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name         = 'FOVAudio'
-	s.version      = '0.0.1'
+	s.version      = '0.0.2'
 	s.summary      = 'Minimal FOVAudio module'
 	s.description  = 'A tiny Expo module used to verify autolinking & registration.'
 	s.homepage     = 'https://example.invalid'
