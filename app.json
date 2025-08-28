@@ -7,17 +7,33 @@
     "sdkVersion": "52.0.0",
     "ios": {
       "bundleIdentifier": "com.example.FOVMini",
-      "buildNumber": "1",               
-      "supportsTablet": true
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "plugins": [
-      ["expo-build-properties", {
-        "ios": {
-          "deploymentTarget": "15.1",
-          "useFrameworks": "static",
-          "otherLinkerFlags": ["-ObjC"]  
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "15.1",
+            "useFrameworks": "static",
+            "otherLinkerFlags": [
+              "-ObjC"
+            ]
+          }
         }
-      }]
-    ]
+      ]
+    ],
+    "android": {
+      "package": "com.example.FOVMini"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "530b7254-169d-40c9-9583-da2e699eb67a"
+      }
+    }
   }
 }

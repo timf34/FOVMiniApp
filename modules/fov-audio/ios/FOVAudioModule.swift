@@ -1,6 +1,5 @@
 import ExpoModulesCore
 
-@objc(FOVAudioModule)
 public class FOVAudioModule: Module {
   public func definition() -> ModuleDefinition {
     Name("FOVAudio")
